@@ -110,6 +110,7 @@ Ready to go ?
 | `minifyScripts` | `true` | should the local concatenated script be minified |
 | `criticalPathStyles` | `true` | when set, the server will make a request to itself to determine the minimum CSS that should be included inline in order to render the above-the-fold part of the page |    
 | `forceAdmin` | `false` | when set, the user is automatically authenticated as admin. Convenient when developing on the admin section, not for production |
+[ `showErrorStack` | `false` | if true, the full exception stack is displayed in the error page. For development mode only |
 | `defaultScripts` | some local JS files | an array of local JS files to be included in every page |
 | `defaultExtScripts` | some JS URLs | an array of URLs to external JS resources to be included in every page |
 | `defaultStyles` | some local CSS files | an array of local CSS files to be included in every page |

@@ -47,5 +47,6 @@
 	"concatScripts": true,
 	"minifyScripts": true,
 	"criticalPathStyles": true,
-	"forceAdmin": false
+	"forceAdmin": false,
+	"showErrorStack": false
 }
